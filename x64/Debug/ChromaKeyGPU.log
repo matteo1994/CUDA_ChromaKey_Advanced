@@ -1,0 +1,37 @@
+﻿  
+  C:\Users\matte\source\repos\ChromaKeyGPU\ChromaKeyGPU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od  /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\matte\source\repos\ChromaKeyGPU\ChromaKeyGPU\kernel.cu" -clean 
+  kernel.cu
+  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\matte\source\repos\ChromaKeyGPU\ChromaKeyGPU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\matte\source\repos\ChromaKeyGPU\ChromaKeyGPU\kernel.cu" 
+C:/Users/matte/source/repos/ChromaKeyGPU/ChromaKeyGPU/kernel.cu(76): warning : variable "kfg" was declared but never referenced
+C:/Users/matte/source/repos/ChromaKeyGPU/ChromaKeyGPU/kernel.cu(77): warning : variable "alfa1" was declared but never referenced
+  kernel.cu
+  stdafx.cpp
+  Utility.cpp
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(12): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(13): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(14): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(16): warning C4244: '=': conversione da 'float' a 'char'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(17): warning C4244: '=': conversione da 'float' a 'char'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(25): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(26): warning C4244: '=': conversione da 'double' a 'char'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(27): warning C4244: '=': conversione da 'double' a 'char'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(36): warning C4244: 'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(38): warning C4244: '=': conversione da 'float' a 'unsigned char'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(40): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(42): warning C4244: '=': conversione da 'float' a 'unsigned char'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(44): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(46): warning C4244: '=': conversione da 'float' a 'unsigned char'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(60): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(61): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(63): warning C4244: 'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(66): warning C4244: '=': conversione da 'float' a 'unsigned char'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(68): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(71): warning C4244: '=': conversione da 'float' a 'unsigned char'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(74): warning C4244: '=': conversione da 'float' a 'unsigned char'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(78): warning C4244: '=': conversione da 'float' a 'unsigned char'. Possibile perdita di dati.
+c:\users\matte\source\repos\chromakeygpu\chromakeygpu\utility.cpp(80): warning C4244: '=': conversione da 'float' a 'char'. Possibile perdita di dati.
+  Generazione del codice in corso...
+     Creazione della libreria C:\Users\matte\source\repos\ChromaKeyGPU\x64\Debug\ChromaKeyGPU.lib e dell'oggetto C:\Users\matte\source\repos\ChromaKeyGPU\x64\Debug\ChromaKeyGPU.exp
+  ChromaKeyGPU.vcxproj -> C:\Users\matte\source\repos\ChromaKeyGPU\x64\Debug\ChromaKeyGPU.exe
